@@ -9,10 +9,6 @@ import Contact from './components/sections/Contact';
 
 function App() {
   useEffect(() => {
-    // Update document title
-    document.title = 'John Doe | Full Stack Developer';
-    
-    // Add animations to the page using Intersection Observer
     const animateOnScroll = () => {
       const sections = document.querySelectorAll('section');
       
