@@ -12,4 +12,15 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/kalyani-Lottipally/To-Do-List',
     featured: true,
   },
+   {
+    id: '2',
+    title: 'Step-Sync',
+    description: 'A simple app that counts and displays user steps using device sensors',
+    longDescription: 'Created a basic step counter application that uses device sensors to track the number of steps taken by the user. Displayed the step count in real-time through a clean and minimal interface.',
+    tags: ['React', 'Tailwind CSS', 'TypeScript'],
+    image: '/step.jpg',
+    demoUrl: 'https://step-sync-gvhw.onrender.com',
+    githubUrl: 'https://github.com/kalyani-Lottipally/Step-Sync',
+    featured: true,
+  },
 ];
